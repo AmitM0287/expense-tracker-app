@@ -128,3 +128,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Root level
+.git
+.env
+.vscode
+.angular
+.DS_Store
+node_modules
+package-lock.json
+
+# Expense tracker
+applications/development/expense-tracker-app/.vscode
+applications/development/expense-tracker-app/.angular
+applications/development/expense-tracker-app/.DS_Store
+applications/development/expense-tracker-app/node_modules
+applications/development/expense-tracker-app/package-lock.json
+applications/development/expense-tracker-app/dist
